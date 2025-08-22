@@ -1,0 +1,86 @@
+#home-header-div{
+        background-image: url("./home-header-bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+#home-header-inner-div{
+        animation: fadeIn 3s;
+}
+
+@keyframes fadeIn{
+        0%{
+                opacity: 0;
+        }
+        100%{
+                opacity: 1;
+        }
+}
+
+#mobile-nav-show{
+        animation: slideIn 1s forwards;
+}
+#mobile-nav-hide{
+        animation: slideOut 1s forwards;
+}
+@keyframes slideIn{
+        0%{
+                left: -300px;
+        }
+        100%{
+                left: 0;
+        }
+}
+@keyframes slideOut{
+        0%{
+                left: 0;
+        }
+        100%{
+                left: -300px
+        }
+}
+
+#login-div-show{
+        animation: slideDown 1s forwards;
+}
+@keyframes slideDown{
+        0%{
+                top: -400px;
+        }
+        100%{
+                top: 20%;
+        }
+}
+#login-div-hide{
+        animation: slideUp 1s forwards;
+}
+@keyframes slideUp{
+        0%{
+                top: 20%;
+        }
+        100%{
+                top: -400px;
+        }
+}
+
+#search-show{
+        animation: searchSlideDown .7s forwards;
+}
+@keyframes searchSlideDown{
+        0%{
+                top: -50px
+        }
+        100%{
+                top: 10%;
+        }
+}
+#search-hide{
+        animation: searchSlideUp .7s forwards;
+}
+@keyframes searchSlideUp{
+        0%{
+                top: 10%
+        }
+        100%{
+                top: -50px
+        }
+}
