@@ -1,4 +1,5 @@
 import logo from './logo.png'
+import homeHeaderBg from './home-header-bg.jpg'
 import searchIcon from './search-interface-symbol.png'
 import shoppingCart from './shopping-cart.png'
 import redDot from './red-dot.png'
@@ -91,6 +92,7 @@ import error404 from './404.gif'
 
 export const asserts={
         logo,
+        homeHeaderBg,
         searchIcon,
         shoppingCart,
         redDot,
